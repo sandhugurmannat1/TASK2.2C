@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TaskTrackr</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to TaskTrackr</h1>
+        <p>Manage your tasks efficiently and Easily.</p>
+    </header>
+    <main>
+        <div id="app">
+            <h2>Task List</h2>
+            <p>>TASK-1.1P</p>
+            <p>TASK-1.2P</p>
+            <p>TASK-1.3P</p>
+            <p>TASK-2.1C</p>
+            <p>TASK-2.2C</p>
+            <p>TASK-2.3C</p>
+            <ul>
+                <li v-for="task in tasks" :key="task.id">{{INTRODUCTION TO WEB APPS}}</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 TaskTrackr</p>
+        <p>trimester 2</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
