@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="C:\Users\sandh\OneDrive\Desktop\2.2C\STYLE.CSS">
     <title>TaskTrackr</title>
 </head>
 <body>
@@ -29,7 +29,7 @@
         <p>&copy; 2023 TaskTrackr</p>
         <p>trimester 2</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.js"></script>
-    <script src="app.js"></script>
+    <script src="C:\Users\sandh\OneDrive\Desktop\2.2C\MAIN.JS"></script>
+    <script src="MAIN.JS"></script>
 </body>
 </html>
